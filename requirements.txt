@@ -1,0 +1,8 @@
+langchain
+langchain_core
+langchain_groq
+python-dotenv
+flask
+flask-cors
+langchain_community
+mysql-connector-python
