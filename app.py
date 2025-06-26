@@ -52,7 +52,7 @@ def sql_query_generator(db):
     
     prompt = ChatPromptTemplate.from_template(template)
 
-    llm = ChatGroq(model_name="mixtral-8x7b-32768")
+    llm = ChatGroq(model_name="meta-llama/Llama-4-Scout-17B-16E-Instruct")
 
     return(RunnablePassthrough.assign(schema=lambda _: db.get_table_info()) 
            | prompt 
@@ -74,7 +74,7 @@ def response_generator(user_query:str, db: SQLDatabase, chat_history:list):
     SQL Response: {response}
     """
 
-    llm = ChatGroq(model_name='mixtral-8x7b-32768')
+    llm = ChatGroq(model_name='meta-llama/Llama-4-Scout-17B-16E-Instruct')
 
     prompt = ChatPromptTemplate.from_template(template)
 
