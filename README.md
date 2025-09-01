@@ -7,7 +7,7 @@
 [![Stars](https://img.shields.io/github/stars/YUGESHKARAN/MySQL-RAG?style=social)](https://github.com/YUGESHKARAN/MySQL-RAG/stargazers)
 [![Forks](https://img.shields.io/github/forks/YUGESHKARAN/MySQL-RAG?style=social)](https://github.com/YUGESHKARAN/MySQL-RAG/network/members)
 
-![MySQL Architecture](/assets/MYsql_Architecture.png)
+![MySQL Architecture](/assets/MySQL_Architecture.png)
 
 ## 📘Overview
 
