@@ -75,15 +75,15 @@ python test.py
 
 ## 💬 Example Usage
 
-- **Natural Language Query:**  
-  "Show me all students with attendance below 75% in March."
-- **Chatbot Output:**  
-  Returns a table/list based on your database records.
+- 🗣️ **Natural Language Query:**  
+   - "Show me all students with attendance below 75% in March."
+- 📥 **Chatbot Output:**  
+   - Returns a table/list based on your database records.
+   -  Confirms update and shows the modified record.
 
-- **Database Modification:**  
-  "Update attendance for John Doe to 85% in Mathematics."
-- **Chatbot Output:**  
-  Confirms update and shows the modified record.
+- ✏️ **Database Modification:**  
+   - "Update attendance for John Doe to 85% in Mathematics."
+ 
 
 ## 🧠 Model Details
 
