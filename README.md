@@ -7,6 +7,8 @@
 [![Stars](https://img.shields.io/github/stars/YUGESHKARAN/MySQL-RAG?style=social)](https://github.com/YUGESHKARAN/MySQL-RAG/stargazers)
 [![Forks](https://img.shields.io/github/forks/YUGESHKARAN/MySQL-RAG?style=social)](https://github.com/YUGESHKARAN/MySQL-RAG/network/members)
 
+![MySQL Architecture](/assets/MYsql_Architecture.png)
+
 ## 📘Overview
 
 **MySQL-RAG** is an advanced SQL chatbot application that combines the power of Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to enable natural language interaction with MySQL databases. Built with a Python Flask backend and utilizing the meta-llama/Llama-4-Scout-17B-16E-Instruct model, this chatbot allows users to analyze, visualize, and manage database records using conversational queries—eliminating the need to write SQL manually.
