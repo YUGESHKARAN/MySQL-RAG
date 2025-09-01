@@ -1,4 +1,4 @@
-# 🐬 MySQL-RAG: LLM-Powered SQL Chatbot
+# 🐬🛢️MySQL-RAG: LLM-Powered SQL Chatbot
 [![License](https://img.shields.io/github/license/YUGESHKARAN/MySQL-RAG)](https://github.com/YUGESHKARAN/MySQL-RAG/blob/main/LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Last Commit](https://img.shields.io/github/last-commit/YUGESHKARAN/MySQL-RAG)](https://github.com/YUGESHKARAN/MySQL-RAG/commits/main)
@@ -6,6 +6,8 @@
 [![Pull Requests](https://img.shields.io/github/issues-pr/YUGESHKARAN/MySQL-RAG)](https://github.com/YUGESHKARAN/MySQL-RAG/pulls)
 [![Stars](https://img.shields.io/github/stars/YUGESHKARAN/MySQL-RAG?style=social)](https://github.com/YUGESHKARAN/MySQL-RAG/stargazers)
 [![Forks](https://img.shields.io/github/forks/YUGESHKARAN/MySQL-RAG?style=social)](https://github.com/YUGESHKARAN/MySQL-RAG/network/members)
+
+![MySQL Architecture](/assets/MySQL_Architecture.png)
 
 ## 📘Overview
 
