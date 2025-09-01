@@ -1,21 +1,31 @@
 # MySQL-RAG: LLM-Powered SQL Chatbot
 
 
-## Overview
+##📘Overview
 
 **MySQL-RAG** is an advanced SQL chatbot application that combines the power of Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to enable natural language interaction with MySQL databases. Built with a Python Flask backend and utilizing the meta-llama/Llama-4-Scout-17B-16E-Instruct model, this chatbot allows users to analyze, visualize, and manage database records using conversational queries—eliminating the need to write SQL manually.
 
-## Key Features
+## ✨ Key Features
 
-- **LLM-Powered Chatbot:** 
-  - Uses the meta-llama/Llama-4-Scout-17B-16E-Instruct model for advanced SQL reasoning.
-  - Converts natural language queries into SQL commands for data retrieval, analysis, and modification.
-- **Flask Backend:** Lightweight, easy-to-deploy Python backend for API and chatbot logic.
-- **RAG Architecture:** Integrates retrieval mechanisms with generative AI for precise and context-aware responses.
-- **Database Operations:** Supports SELECT, UPDATE, DELETE, and other SQL operations through chat.
-- **Easy Deployment:** Ready for deployment on modern platforms (e.g., Vercel, as seen in `vercel.json`).
+- 🤖 **LLM-Powered Chatbot:**  
+  - 🧠 Uses the `meta-llama/Llama-4-Scout-17B-16E-Instruct` model for advanced SQL reasoning.  
+  - 💬 Converts natural language queries into SQL commands for data retrieval, analysis, and modification.
 
-## Folder Structure
+- 🐍 **Flask Backend:**  
+  - ⚙️ Lightweight and easy-to-deploy Python backend for API and chatbot logic.
+
+- 🔍 **RAG Architecture:**  
+  - 🧩 Integrates retrieval mechanisms with generative AI for precise and context-aware responses.
+
+- 🛠️ **Database Operations:**  
+  - 📊 Supports `SELECT`, `UPDATE`, `DELETE`, and other SQL operations through chat.
+
+- 🚀 **Easy Deployment:**  
+  - ⚡ Ready for platforms like Vercel (see `vercel.json` for config).
+
+---
+
+## 📁 Folder Structure
 
 - **.gitignore** – Git ignore rules
 - **app.py** – Main Flask application and API endpoints
@@ -23,7 +33,7 @@
 - **test.py** – Test scripts for chatbot/database functionality
 - **vercel.json** – Deployment configuration for Vercel
 
-## Getting Started
+## 🛠️ Getting Started
 
 ### 1. Clone the Repository
 
@@ -63,7 +73,7 @@ To run test scripts:
 python test.py
 ```
 
-## Example Usage
+## 💬 Example Usage
 
 - **Natural Language Query:**  
   "Show me all students with attendance below 75% in March."
@@ -75,20 +85,20 @@ python test.py
 - **Chatbot Output:**  
   Confirms update and shows the modified record.
 
-## Model Details
+## 🧠 Model Details
 
 - **LLM Used:** [meta-llama/Llama-4-Scout-17B-16E-Instruct](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct)
 - **Integration:** The LLM is used for both SQL generation from natural language and for contextual, conversational responses.
 
-## Deployment
+## 🚀 Deployment
 
 This project includes a `vercel.json` file for easy deployment on Vercel. Adjust as needed for your deployment environment.
 
-## Contribution
+## 🤝 Contribution
 
 Contributions are welcome! Submit issues or pull requests for improvements or bug fixes.
 
 
-## Contact
+## 📬 Contact
 
 For questions or support, contact [Yugeshkaran](https://github.com/YUGESHKARAN).
