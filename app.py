@@ -17,6 +17,7 @@ load_dotenv()
 app = Flask(__name__)
 
 CORS(app)
+os.environ['groq_api_key'] = os.getenv('groq_api_key')
 connection_string = os.getenv("connection_string")  
 db = SQLDatabase.from_uri(connection_string)
 
