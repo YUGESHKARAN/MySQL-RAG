@@ -10,6 +10,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_groq import ChatGroq
 
 from langchain.sql_database import SQLDatabase
+
 import os
 
 load_dotenv()
@@ -17,7 +18,8 @@ load_dotenv()
 app = Flask(__name__)
 
 CORS(app)
-db = SQLDatabase.from_uri('mysql+mysqlconnector://root:root@localhost:3306/dsu')
+MYSQL_URL = os.getenv('MYSQL_URL')
+db = SQLDatabase.from_uri(MYSQL_URL)
 
 chat_history=[]
 def sql_query_generator(db):
@@ -32,10 +34,6 @@ def sql_query_generator(db):
     Write only the SQL query and nothing else. Do not wrap the SQL query in any other text, not even backticks.
 
     For exmaple:
-    Question: what are the scheme_name available?
-    SQL Query: SELECT Scheme_Name FROM gov_schemes;
-    Question: What are the eligibility to obtain government schemes?
-    SQL Query: SELECT Eligibility_Criteria FROM gov_schemes;
     Question: i need attendance percentage , name and roll no of all students from section B?
     SQL Query: SELECT S.name, S.roll_no, S.department, S.semester, S.photo, S.status, S.section,
                 (COUNT(CASE WHEN A.attendance_status = 'Present' THEN 1 END) / COUNT(*)) * 100 AS attendance_percentage
