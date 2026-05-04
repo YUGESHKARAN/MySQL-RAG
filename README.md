@@ -1,4 +1,15 @@
-# 🐬🛢️MySQL-RAG: LLM-Powered SQL Chatbot
+
+
+
+<div align="center">
+  <h3>
+    MySQL-RAG: LLM-Powered SQL Chatbot
+  </h3>
+</div>
+
+<div align="center">
+
+
 [![License](https://img.shields.io/github/license/YUGESHKARAN/MySQL-RAG)](https://github.com/YUGESHKARAN/MySQL-RAG/blob/main/LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Last Commit](https://img.shields.io/github/last-commit/YUGESHKARAN/MySQL-RAG)](https://github.com/YUGESHKARAN/MySQL-RAG/commits/main)
@@ -6,34 +17,37 @@
 [![Pull Requests](https://img.shields.io/github/issues-pr/YUGESHKARAN/MySQL-RAG)](https://github.com/YUGESHKARAN/MySQL-RAG/pulls)
 [![Stars](https://img.shields.io/github/stars/YUGESHKARAN/MySQL-RAG?style=social)](https://github.com/YUGESHKARAN/MySQL-RAG/stargazers)
 [![Forks](https://img.shields.io/github/forks/YUGESHKARAN/MySQL-RAG?style=social)](https://github.com/YUGESHKARAN/MySQL-RAG/network/members)
+</div>
 
-![MySQL Architecture](/assets/MySQL_Architecture.png)
-
-## 📘Overview
 
 **MySQL-RAG** is an advanced SQL chatbot application that combines the power of Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to enable natural language interaction with MySQL databases. Built with a Python Flask backend and utilizing the meta-llama/Llama-4-Scout-17B-16E-Instruct model, this chatbot allows users to analyze, visualize, and manage database records using conversational queries—eliminating the need to write SQL manually.
 
-## ✨ Key Features
+<p
+  align="center">
+  <img src="assets/MySQL_Architecture.png"  width="100%" height="500" alt="Cute Llama"> 
+</p>
 
-- 🤖 **LLM-Powered Chatbot:**  
-  - 🧠 Uses the `meta-llama/Llama-4-Scout-17B-16E-Instruct` model for advanced SQL reasoning.  
-  - 💬 Converts natural language queries into SQL commands for data retrieval, analysis, and modification.
+## Key Features
 
-- 🐍 **Flask Backend:**  
-  - ⚙️ Lightweight and easy-to-deploy Python backend for API and chatbot logic.
+- **LLM-Powered Chatbot:**  
+  - Uses the `meta-llama/Llama-4-Scout-17B-16E-Instruct` model for advanced SQL reasoning.  
+  - Converts natural language queries into SQL commands for data retrieval, analysis, and modification.
 
-- 🔍 **RAG Architecture:**  
-  - 🧩 Integrates retrieval mechanisms with generative AI for precise and context-aware responses.
+- **Flask Backend:**  
+  - Lightweight and easy-to-deploy Python backend for API and chatbot logic.
 
-- 🛠️ **Database Operations:**  
-  - 📊 Supports `SELECT`, `UPDATE`, `DELETE`, and other SQL operations through chat.
+-  **RAG Architecture:**  
+  - Integrates retrieval mechanisms with generative AI for precise and context-aware responses.
 
-- 🚀 **Easy Deployment:**  
-  - ⚡ Ready for platforms like Vercel (see `vercel.json` for config).
+- **Database Operations:**  
+  - Supports `SELECT`, `UPDATE`, `DELETE`, and other SQL operations through chat.
+
+-  **Easy Deployment:**  
+  - Ready for platforms like Vercel (see `vercel.json` for config).
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 - **.gitignore** – Git ignore rules
 - **app.py** – Main Flask application and API endpoints
@@ -41,7 +55,7 @@
 - **test.py** – Test scripts for chatbot/database functionality
 - **vercel.json** – Deployment configuration for Vercel
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -81,32 +95,28 @@ To run test scripts:
 python test.py
 ```
 
-## 💬 Example Usage
+## Example Usage
 
-- 🗣️ **Natural Language Query:**  
+- **Natural Language Query:**  
    - "Show me all students with attendance below 75% in March."
-- 📥 **Chatbot Output:**  
+- **Chatbot Output:**  
    - Returns a table/list based on your database records.
    -  Confirms update and shows the modified record.
 
-- ✏️ **Database Modification:**  
+- **Database Modification:**  
    - "Update attendance for John Doe to 85% in Mathematics."
  
 
-## 🧠 Model Details
+## Model Details
 
 - **LLM Used:** [meta-llama/Llama-4-Scout-17B-16E-Instruct](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct)
 - **Integration:** The LLM is used for both SQL generation from natural language and for contextual, conversational responses.
 
-## 🚀 Deployment
+## Deployment
 
 This project includes a `vercel.json` file for easy deployment on Vercel. Adjust as needed for your deployment environment.
 
-## 🤝 Contribution
+## Contribution
 
 Contributions are welcome! Submit issues or pull requests for improvements or bug fixes.
 
-
-## 📬 Contact
-
-For questions or support, contact [Yugeshkaran](https://github.com/YUGESHKARAN).
